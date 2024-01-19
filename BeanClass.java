@@ -101,5 +101,10 @@ public class Doctor {
 	public void setLocation(String location) {
 		this.location = location;
 	}
+	@Override
+	public String toString() {
+		return "Doctor [id=" + id + ", name=" + name + ", age=" + age + ", email=" + email + ", special=" + special
+				+ ", contact=" + contact + ", location=" + location + "]";
+	}
 
 }
